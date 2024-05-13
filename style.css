@@ -6,8 +6,8 @@ body{
 
 }
 .div:not(.muk){
-    margin-left:300px;
-    margin-right:300px;
+    margin-left:600px;
+    margin-right:600px;
     margin-top:50px;
     font-size: 23px;
 }
@@ -53,9 +53,8 @@ button:hover{
 }
 h1{
     text-shadow: rgb(194, 3, 19) 3px 0 5px;
-    text-transform: uppercase;
     text-align: center;
-    font-size: 48px;
+    font-size: 44px;
 }
 h2{
     text-align: center;
