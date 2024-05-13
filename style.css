@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(206, 206, 206);
+    margin:0px;
+    color:black;
+    font-family:'Inter', sans-serif;
+
+}
+.div:not(.muk){
+    margin-left:300px;
+    margin-right:300px;
+    margin-top:50px;
+    font-size: 23px;
+}
+hr{
+    margin-top:100px;
+    width:70%;
+    height:2px;
+    border:none;
+    background-color: rgb(114, 114, 114);
+}
+.tg{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 23px;
+}
+th{
+    height:30px;
+    font-weight:bold;
+    background-color:#bbbbbb;text-align:center;vertical-align:middle;   
+}
+.ok{
+    margin-left:80px;
+    border-radius: 16px;
+}
+.mukodes:not(.muk){
+    text-align: justify;
+    display: flex;
+    align-items: center; 
+}
+button{
+    margin-left:500px;
+    border-radius:5px;
+    text-decoration: none;
+    padding:10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(182, 181, 181);
+}
+button:hover{
+    background-color: rgb(114, 114, 114);
+    color:rgb(202, 202, 202);
+}
+.img2{
+    width:100px;
+    
+}
+h1{
+    text-shadow: rgb(0, 87, 4) 3px 0 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+}
+h2{
+    text-align: center;
+}
+.nav{
+    font-weight:600;
+    padding-left: 0px;
+    margin: auto;
+    font-size: 25px;
+    float: none;
+    position: absolute;
+    left: 50%;
+    top:15%;
+    transform: translate(-50%, -50%);
+}
+.nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    color:black;
+    text-align: center;
+
+}
+.nav li{
+    float:left;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding:20px;
+    word-spacing:100px;
+    text-align: center;
+    margin:auto;
+}
+.nav a:hover{
+    background-color: rgb(114, 114, 114) !important;
+}
+.container {
+    position:relative;
+    margin-top:13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+img:not(.ok){
+    position:absolute;
+    top:-140px;
+    height:800px;
+    width:800px; 
+    object-fit: cover;
+    border-radius: 16px;
+}
+#movingImage {
+    transition: transform 0.8s ease;
+}
+#textBehindImage {
+    text-align: justify;
+    font-size: 23px;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.row{clear:both}
+
+
+.column{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.fels{
+    margin-top:60px;
+    text-align: justify;
+}
+.credits{
+    font-size: 20px;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
