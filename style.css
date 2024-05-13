@@ -82,12 +82,3 @@ h2{
     position: relative;
     z-index: 1;
 }
-
-p{
-
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    position: relative;
-    z-index: 1;
-}
