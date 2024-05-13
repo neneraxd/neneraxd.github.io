@@ -64,3 +64,21 @@ h1{
 h2{
     text-align: center;
 }
+.container {
+    position: relative;
+}
+
+#hiddenContent {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    opacity: 0;
+}
+
+#hiddenText {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
